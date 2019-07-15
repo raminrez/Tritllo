@@ -185,3 +185,18 @@
   text-align: center;
   padding: 2.5rem;
 }
+
+/////////////////////////////////////////////
+// HOTEL VIEW
+
+.gallery {
+  display: flex;
+
+  &__item {
+  }
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
