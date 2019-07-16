@@ -13,6 +13,9 @@
   --color-gray-dark-3: #999;
 
   --shadow-dark: 0 2rem 6rem rgba($color: #000000, $alpha: 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+  --line: 2px solid var(--color-gray-light-1);
 }
 
 * {
