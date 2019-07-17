@@ -1,12 +1,12 @@
 /////////////////////////////////////////////
-// LOGO
+//! LOGO
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
 }
 
 /////////////////////////////////////////////
-// SEARCH
+//! SEARCH
 .search {
   flex: 0 0 40%;
 
@@ -62,7 +62,7 @@
 }
 
 /////////////////////////////////////////////
-// User NAVIGATION
+//! User NAVIGATION
 .user-nav {
   display: flex;
   align-items: center;
@@ -117,7 +117,7 @@
 }
 
 /////////////////////////////////////////////
-// SIDE NAVIGATION
+//! SIDE NAVIGATION
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
@@ -178,7 +178,7 @@
 }
 
 /////////////////////////////////////////////
-// LEGAL TEXT
+//! LEGAL TEXT
 .legal {
   font-size: 1.2rem;
   color: var(--color-gray-light-4);
@@ -187,7 +187,7 @@
 }
 
 /////////////////////////////////////////////
-// HOTEL VIEW
+//! HOTEL VIEW
 
 .gallery {
   display: flex;
@@ -261,7 +261,7 @@
 }
 
 /////////////////////////////////////////////
-// BUTTON
+//! BUTTON
 .btn-inline {
   border: none;
   color: var(--color-primary);
@@ -311,13 +311,13 @@
 }
 
 /////////////////////////////////////////////
-// PARAGRAPH
+//! PARAGRAPH
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem;
 }
 
 /////////////////////////////////////////////
-// LIST
+//! LIST
 .list {
   list-style: none;
   margin: 3rem 0;
@@ -354,7 +354,7 @@
 }
 
 /////////////////////////////////////////////
-// RECOMMEND
+//! RECOMMEND
 
 .recommend {
   font-size: 1.3rem;
@@ -385,7 +385,7 @@
 }
 
 /////////////////////////////////////////////
-// REVIEW
+//! REVIEW
 .review {
   background-color: #fff;
   box-shadow: var(--shadow-light);
@@ -448,7 +448,7 @@
 }
 
 /////////////////////////////////////////////
-// CTA
+//! CTA
 .cta {
   padding: 3.5rem 0;
   text-align: center;
@@ -462,7 +462,7 @@
 }
 
 /////////////////////////////////////////////
-// BUTTON
+//! BUTTON
 .btn {
   font-size: 1.5rem;
   font-weight: 300;
