@@ -18,6 +18,8 @@
   --line: 2px solid var(--color-gray-light-1);
 }
 
+$bp-largest: 75em; //1200px/16px = 75em
+
 * {
   margin: 0;
   padding: 0;
