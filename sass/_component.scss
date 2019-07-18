@@ -123,11 +123,24 @@
   list-style: none;
   margin-top: 1.5rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    margin-top: 0;
+    display: flex;
+  }
+
   &__item {
     position: relative;
 
     &:not(:last-child) {
       margin-bottom: 0.5rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        margin-bottom: 0;
+      }
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      flex: 1;
     }
   }
 
@@ -162,11 +175,15 @@
     color: var(--color-gray-light-1);
     text-decoration: none;
     text-transform: uppercase;
-    display: block;
     padding: 1.5rem 3rem;
 
     position: relative;
     z-index: 2;
+
+    @media only screen and (max-width: $bp-medium) {
+      justify-content: center;
+      padding: 2rem;
+    }
   }
 
   &__icon {
@@ -184,6 +201,10 @@
   color: var(--color-gray-light-4);
   text-align: center;
   padding: 2.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }
 
 /////////////////////////////////////////////
@@ -367,6 +388,7 @@
   }
 
   &__friends {
+    display: flex;
   }
 
   &__photo {
@@ -393,6 +415,11 @@
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+  }
 
   &__text {
     margin-bottom: 2rem;
@@ -452,6 +479,10 @@
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.5rem;
+  }
 
   &__book-now {
     text-transform: uppercase;

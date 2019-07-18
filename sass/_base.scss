@@ -19,6 +19,8 @@
 }
 
 $bp-largest: 75em; //1200px/16px = 75em
+$bp-large: 68.75em; //1100/16px = 68.75em
+$bp-medium: 56.25em; //900/16px = 56.25em
 
 * {
   margin: 0;
@@ -34,6 +36,10 @@ $bp-largest: 75em; //1200px/16px = 75em
 html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px , 10/16==62.5%
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%; //1rem = 10px , 8/16==50%
+  }
 }
 
 body {
